@@ -1,0 +1,165 @@
+/* Font Settings */
+:root {
+    --font-family: 'Arial', sans-serif;
+    --font-color: #f5f5f5;
+    --font-size-base: 16px;
+    --font-size-header: 2rem;
+    --font-size-subheader: 1.5rem;
+    --font-size-body: 1rem;
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Spacer for Hero */
+.spacer {
+    height: 8rem; /* Adjust space at the top of the header */
+}
+
+/* Header */
+.hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #000000;
+}
+
+.hero-image {
+    max-width: 250px;
+    margin: 0 auto 1rem;
+    display: block;
+}
+
+/* Main Content */
+.content {
+    /*padding: 2rem 1rem;*/
+    padding-bottom: 8rem;
+    padding-top: 3rem;
+}
+
+.links {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.links h2 {
+    font-size: var(--font-size-subheader);
+    margin-bottom: 1rem;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin: 0.5rem 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: #6eff4d;
+}
+
+/* Body Styling */
+body {
+    font-family: var(--font-family);
+    color: var(--font-color);
+    background-color: #000000;
+    line-height: 1.6;
+    font-size: var(--font-size-base);
+}
+
+/* Arrow Icon */
+.arrow-icon {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.arrow-icon h2{
+    font-size: var(--font-size-subheader);
+    margin-bottom: 0.5rem;
+}
+
+.arrow-link {
+    font-size: 2rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.arrow-link:hover {
+    color: #6eff4d;
+}
+
+/* Portfolio Section */
+.portfolio {
+    text-align: center;
+    margin-top: 5rem;
+    padding: 2rem 0;
+}
+
+.portfolio h2 {
+    font-size: var(--font-size-header);
+    margin-bottom: 1rem;
+}
+
+.portfolio-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    max-width: 80%;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+}
+
+.portfolio-content {
+    flex: 1;
+    text-align: left;
+}
+
+.thumbnail {
+    width: 200px;
+    height: auto;
+    border: 1px solid #444;
+    border-radius: 8px;
+    margin-right: 1rem;
+}
+
+.media-container {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.project-media {
+    width: auto; /* Default size */
+    height: 500px;
+    border: 1px solid #444;
+    border-radius: 8px;
+}
+
+video {
+    width: auto; /* Default size */
+    height: 500px;
+}
+
+.project-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.project-link:hover {
+    color: #6eff4d;
+}
